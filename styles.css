@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: #2d3142;
+}
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center; 
+
+    height: 100vh;
+    gap: 50px;
+}
+
+
+
+.left-items {
+    font-family: 'Josefin Sans';
+    color: #EAE8FF;
+}
+
+.left-items p {
+    margin-bottom: 15px;
+}
+
+#logo {
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+
+
+form input {
+    border: transparent;
+    border-radius: 7px;
+    padding: 10px;
+    gap: 10px;
+}
+#email {
+    width: 250px;
+    background-color: #EAE8FF;
+}
+::placeholder {
+    color: #A6A5B5;
+}
+#submit-button {
+    width: 75px;
+    color: #EAE8FF;
+    background-color: #FF6978;
+
+    transition: .3s;
+}
+#submit-button:hover {
+    color: #FF6978;
+    background-color: #EAE8FF;
+
+    transition: .3s;
+}
+
+
+
+
+.images {
+    display: flex;
+    align-items: center;
+
+    transition: .5s;
+}
+#img1 {
+    z-index: 1;
+    height: 400px;
+    border-radius: 7px;
+
+    box-shadow: -5px 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.38);
+
+    transition: .5s;
+}
+#img2 {
+    z-index: 2;
+    height: 450px;
+    margin-left:-20px;
+
+    border-radius: 7px;
+    box-shadow: -6.5px 3px 6px 0 rgba(0, 0, 0, 0.4), 0 4px 15px 0 rgba(0, 0, 0, 0.38);
+
+    transition: .5s;
+}
+#img3 {
+    z-index: 3;
+    height: 500px;
+    margin-left: -20px;
+    
+    border-radius: 7px;
+    box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+
+    transition: .5s;
+}
+
+#img1:hover {
+    z-index: 3;
+    transform: scale(1.05);
+    box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+    margin-right: 40px;
+    
+    transition: .5s;
+}
+#img2:hover {
+    z-index: 3;
+    transform: scale(1.05);
+    box-shadow: -10px 6px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+
+    margin-right: 40px;
+    margin-left: 20px;
+    
+    transition: .5s;
+}
+#img3:hover {
+    transform: scale(1.05);
+    box-shadow: -12px 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+
+    margin-left: 20px;
+    
+    transition: .5s;
+}
+
+.images:hover {
+    margin-left: -20px;
+    transition: .5s;
+}
