@@ -123,8 +123,3 @@ form input {
     
     transition: .5s;
 }
-
-.images:hover {
-    margin-left: -20px;
-    transition: .5s;
-}
